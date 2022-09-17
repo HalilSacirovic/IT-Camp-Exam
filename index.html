@@ -24,14 +24,27 @@
             <div class="col-3 col-sm-1 col-md-1 col-lg-11 ">
                 <div class="navigations">
                     <div class="desktop-nav">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a class="free-trial-btn" href="#">Free Trial</a></li>
+                        <ul class="nav-items">
+                            <li class="nav-item"><a class="nav-link"  href="#">Home</a></li>
+                            <li  class="nav-item"><a  class="nav-link" href="#">About</a></li>
+                            <li  class="nav-item"><a class="nav-link"  href="#">Services</a></li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Pages</button>
+                                <div class="dropdown-content">
+                                <a id="test-a1" href="#">Pricing</a>
+                                <a id="test-a2" href="#">Elements</a>
+                                </div>
+                              </div>
+                            <!-- <li><a href="#">Pages</a></li> -->
+                            <div class="dropdown">
+                                <button class="dropbtn">Blog</button>
+                                <div class="dropdown-content">
+                                <a id="test-a1" href="#">Blog</a>
+                                <a id="test-a2" href="#">Blog Details</a>
+                                </div>
+                              </div>
+                            <li  class="nav-item"><a  class="nav-link" href="#">Contact</a></li>
+                            <li class="nav-item"><a  class="free-trial-btn" href="#">Free Trial</a></li>
                         </ul>
                     </div>
                     <div class="mobile-nav">
@@ -48,14 +61,26 @@
         <div class="collapse mobile-nav" id="collapseExample">
             <div class="card card-body card-bg">
                      
-                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li> 
-                                <li><a href="#">Services</a></li>
+                             <ul class="nav-items">
+                                <li  class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                <li  class="nav-item"><a class="nav-link" href="#">About</a></li> 
+                                <li  class="nav-item"><a class="nav-link" href="#">Services</a></li>
                                 <!-- Here need to put dropdown  -->
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Pages</button>
+                                    <div class="dropdown-content">
+                                    <a id="test-a1" href="#">Pricing</a>
+                                    <a id="test-a2" href="#">Elements</a>
+                                    </div>
+                                  </div>
+                                  <div class="dropdown">
+                                    <button class="dropbtn">Blog</button>
+                                    <div class="dropdown-content">
+                                    <a id="test-a1" href="#">Blog</a>
+                                    <a id="test-a2" href="#">Blog Details</a>
+                                    </div>
+                                  </div>
+                                <li  class="nav-item"><a  class="nav-link" href="#">Contact</a></li>
                             </ul>
             </div>
           </div>
@@ -66,5 +91,29 @@
 
 
 <!-- ============================================================================================= -->
+
+<!-- SECTION ONE START HERE  -->
+
+<div class="section-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="section-one-text">
+                    <h2>Mass People <br> Oriented Software</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel nobis inventore cumque. Et veniam dignissimos iste quasi debitis quis corporis nostrum, recusandae nulla.</p>
+                    <a class="free-trial-btn" href="#">Get Started</a>
+                    <a class="download-btn" href="#">Download</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <img src="../IT-Camp-Exam/Sections-images/section-one-img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION ONE ENDS HERE -->
+
+ <!-- ============================================================================================= -->
 </body>
 </html>
