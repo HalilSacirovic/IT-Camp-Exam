@@ -622,3 +622,124 @@ height: auto;
   padding-top: 40px;
 }
 
+
+/*============================================================================================ */
+
+
+.section-six {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-six .sect-six-title {
+  text-align: center;
+
+}
+
+.section-six .offer-tab {
+  border: 1px solid #eaf3fc;
+  transition:all  0.7s ease-in-out !important;
+}
+.section-six  .sect-six-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-six .sect-six-title p {
+  font-size: 16px;
+  color: #777;
+  max-width: 700px;
+  margin:auto;
+  margin-bottom: 40px;
+}
+
+.section-six .price-plan .title-offer {
+  background-color: #edf6ff;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 35px 0;
+  border-bottom: 1px solid #eee;
+}
+.section-six .price-plan .title-offer h4 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 0;
+  font-weight: 700;
+
+}
+
+.section-six .offer-list ul {
+  margin-top: 30px;
+}
+.section-six .offer-list ul li {
+  text-align: center;
+  padding-top: 5px;
+ 
+}
+
+.section-six .offer-list ul li a {
+  text-decoration: none ;
+  color: #777
+}
+
+.section-six .offer-price {
+  max-width: 350px;
+  margin: 0 auto 40px;
+  background: #edf6ff;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.section-six .offer-price span {
+  font-size: 80px;
+  font-weight: 600;
+
+}
+.section-six .offer-price span sub  {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+  width: 10px;
+
+}
+
+@media (max-width:992px) {
+  .section-six {
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .section-six .offer-tab {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+}
+
+.section-six .offer-tab:hover .title-offer {
+  background-image: linear-gradient(to right top , #4dabff 20%,#62ddff 70%);
+  color: white;
+}
+.section-six .offer-tab:hover .offer-price {
+  background-image: linear-gradient(to right top , #4dabff 20%,#62ddff 70%);
+  color: white;
+}
+.section-six .offer-tab:hover .get-started-btn {
+background-image: linear-gradient( to right, white ,rgb(226, 225, 225));
+  color: black;
+}
+.section-six .offer-tab:hover span sub  {
+  color: white;
+}
+
+/* SECTION SIX ENDS HERE  */
+
+
+/* ================================================================================================================= */
