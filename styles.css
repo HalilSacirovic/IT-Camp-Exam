@@ -443,3 +443,104 @@ color: white;
 
 
 /* ================================================================================================ */
+
+.section-tree {
+  background-color: #edf6ff;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+} 
+
+.section-tree .button-link {
+  border: none;
+  padding: 20px 60px;
+  background: #fff;
+  border-radius: 0;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #222;
+  text-decoration: none; 
+  transition: all 0.3s !important; 
+
+}
+
+.section-tree .button-link:hover {
+  background:  linear-gradient(to left top,#47a0ed 0%,#38bfe4 48%,#1f7ac9 100%);
+  color: white;
+}
+
+.section-tree .life-text {
+  margin-top: 90px;
+}
+
+@media (max-width:992px) {
+  .section-tree {
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+.section-tree .life-text h3 {
+  color: #222;
+    line-height: 45px;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-tree .life-text h6 {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto",sans-serif;
+}
+
+.section-tree .life-text {
+  margin-bottom: 50px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-image: linear-gradient(to left top,#47a0ed 0%,#38bfe4 48%,#1f7ac9 100%);
+  background-size: 200% auto;
+  padding: 0 30px;
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 50px;
+  border-radius: 5px;
+  outline: none!important;
+  box-shadow: none!important;
+  text-align: center;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+  text-decoration: none;
+
+}
+
+.get-started-btn:hover{
+ background-position: right top;
+ color: white
+
+}
+
+.section-tree .life-line-chart img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+
+/* SECTION TREE ENDS HERE  */
+
+/*========================================================================================================= */
+
