@@ -544,3 +544,81 @@ color: white;
 
 /*========================================================================================================= */
 
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh
+}
+
+.section-four .sect-four-title {
+  text-align: center;
+
+}
+.section-four .sect-four-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+.section-four .sect-four-title p {
+  font-size: 14px;
+  color: #777;
+  max-width: 700px;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.section-four .sect-four-img {
+  text-align: center;
+}
+.section-four .sect-four-img img {
+max-width: 100%;
+height: auto;
+}
+
+/* SECTION FOUR ENDS HERE */
+
+/* ====================================================================================== */
+
+.section-five {
+  background-color: #edf6ff;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+} 
+
+.section-five .life-text {
+  margin-top: 90px;
+}
+
+.section-five .life-text h3 {
+  color: #222;
+    line-height: 45px;
+    font-size: 36px;
+    font-family: "Heebo",sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-five .life-text h6 {
+  color: #222;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto",sans-serif;
+}
+
+.section-five .life-text {
+  margin-bottom: 50px;
+}
+
+
+.section-five .life-line-chart img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
