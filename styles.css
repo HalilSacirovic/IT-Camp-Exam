@@ -364,3 +364,82 @@ float: right;
 /* SECTION ONE ENDS HERE  */
 
 /* ================================================================= */
+
+/* SECTION TWO START HERE  */
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+.section-two .how-it-work-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-two .how-it-work-text h1 {
+  font-family: "Heebo",sans-serif;
+  font-size: 36px;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.section-two .how-it-work-text p {
+  font-size: 14px;
+  font-family: "Roboto",sans-serif;
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 0;
+  max-width: 570px;
+  margin: auto;
+}
+.section-two .how-it-work-item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-two .how-it-work-item a {
+  display: block;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s linear;
+}
+.section-two .how-it-work-item i {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: #f9f9ff;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 30px;
+  transition: 0.3s linear;
+}
+
+
+.section-two .how-it-work-item p {
+  max-width: 330px;
+  margin: auto;
+}
+
+.section-two .how-it-work-item:hover i {
+ background-image: linear-gradient(to right top , #4dabff 20%,#62ddff 70%);
+color: white;
+
+}
+
+.section-two .how-it-work-item:hover a {
+  color: #62ddff;
+}
+
+/* SECTION TWO ENDS HERE  */
+
+
+/* ================================================================================================ */
