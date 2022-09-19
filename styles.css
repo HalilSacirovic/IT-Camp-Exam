@@ -622,6 +622,19 @@ height: auto;
   padding-top: 40px;
 }
 
+@media (max-width:992px) {
+  .section-five {
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+ .get-started-btn {
+    width: auto;
+    height: auto;
+  }
+}
+
 
 /*============================================================================================ */
 
@@ -640,6 +653,7 @@ height: auto;
 .section-six .offer-tab {
   border: 1px solid #eaf3fc;
   transition:all  0.7s ease-in-out !important;
+  width: auto;
 }
 .section-six  .sect-six-title h1 {
   font-size: 40px;
@@ -743,3 +757,171 @@ background-image: linear-gradient( to right, white ,rgb(226, 225, 225));
 
 
 /* ================================================================================================================= */
+
+.section-seven {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf6ff;
+  flex-direction: column;
+}
+.section-seven .sect-seven-title {
+  text-align: center;
+
+}
+.section-seven  .sect-seven-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.section-seven .sect-seven-title p {
+  font-size: 16px;
+  color: #777;
+  max-width: 700px;
+  margin:auto;
+  margin-bottom: 40px;
+}
+
+/* HERE IS THE STYLES FOR SLIDES  */
+.sect-seven-slider .customers-reviews {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  
+}
+/* OVDE SAM STAVIO NAMERNO WHITESMOKE KAO BACKGROUND KAKO BI SE VIDELO DA AUTOMATSKI SLAJDUJE
+A NIJE ZBOG TOGA STO NEMAM UKUSA ZA DIZAJN :) */
+.sect-seven-slider .customer-reviews-2 {
+  background-color:whitesmoke;
+}
+
+/* ======================================================================================================================= */
+
+.sect-seven-slider .customers-reviews .customer-img img  {
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 20px;
+
+}
+.sect-seven-slider .customers-reviews .customer-text h4  {
+ color:#222;
+ font-weight: bold;
+ transition:0.32s linear;
+ 
+}
+.sect-seven-slider .customers-reviews .customer-text p  {
+color: #777;
+font-size: 15px;
+max-width: 90%;
+
+}
+.sect-seven-slider .customers-reviews .customer-text .customer-rating i  {
+color: orange;
+}
+
+
+.sect-seven-slider .customers-reviews:hover h4 {
+  color: #38bfe4;
+  
+}
+
+@media (max-width:768px) {
+  .section-seven {
+    height: auto;
+    width: auto;
+  }
+
+  .sect-seven-slider .customers-reviews {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width:402px) {
+  .sect-seven-slider .customers-reviews {
+    flex-direction: column;
+  }
+  }
+
+
+  .carousel-item {
+    transition: 1.8 ease-in-out !important;
+  }
+
+
+  /* SECTION SEVEN ENDS HERE  */
+
+  /* ===================================================================================================================================== */
+
+
+  .section-eight {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  } 
+  
+  .section-eight .life-text {
+    margin-top: 90px;
+  }
+  
+  .section-eight .life-text h3 {
+    color: #222;
+      line-height: 45px;
+      font-size: 36px;
+      font-family: "Heebo",sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+      max-width: 55%;
+  }
+  
+  .section-eight .life-text h6 {
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto",sans-serif;
+  }
+  
+  .section-eight .life-text p {
+    color: #777;
+    font-family: "Roboto",sans-serif;
+  }
+  
+  .section-eight .life-text {
+    margin-bottom: 50px;
+  }
+  
+  
+  .section-eight .life-line-chart img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+  }
+  
+  @media (max-width:992px) {
+    .section-eight {
+      height: auto;
+      margin-bottom: auto;
+      margin-top: auto;
+    }
+
+    .section-eight .life-text h3 {
+      max-width: auto;
+    }
+  
+   .get-started-btn {
+      width: auto;
+      height: auto;
+    }
+  }
+  
+  
+  /* SECTION EIGHT ENDS HERE */
+
+
+  /* ============================================================================================================== */
