@@ -1189,7 +1189,7 @@ margin-right: 20px;
 /* ============================================================================================================== */
 
 .section-blog-detail {
-  height: 400vh;
+  height: 330vh;
  display: flex;
  justify-content: center;
  margin-top: 80px;
@@ -1518,3 +1518,162 @@ margin-right: 20px;
 }
 
 }
+
+
+/* BLOG-DETAILS SECTION ENDS HERE  */
+
+
+/* BLOG SECTION START HERE */
+.section-blog {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.section-blog::before {    
+    content: "";
+    background-image: url('../IT-Camp-Exam/Sections-images/background-img-blog-section.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+.blog-title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section-blog .blog-title-text h1  {
+position: relative;
+color: #ffffff;  
+font-size: 50px;
+line-height: 0.9;
+text-align: center;
+width: 40%;
+}
+.section-blog .blog-title-text p  {
+position: relative;
+color: #ffffff;  
+line-height: 0.9;
+text-align: center;
+}
+
+.section-blog-detail .tree-picture {
+display: flex;
+  margin-bottom: 50px;
+
+}
+
+.section-blog-detail .tree-picture .social-life-img {
+  background-image: url(../IT-Camp-Exam/Sections-images/social-life.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-blog-detail .tree-picture .politics-img {
+  background-image: url(../IT-Camp-Exam/Sections-images/guy-with-glasses.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-blog-detail .tree-picture .food-img {
+  background-image: url(../IT-Camp-Exam/Sections-images/steak.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-blog-detail .tree-picture .small-card-img-text {
+  background-color:#0009;
+  color: white;
+  padding: 65px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.section-blog-detail .tree-picture .small-card-img-text h5 {
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ .item-left {
+  text-align: right;
+}
+ .item-left a  {
+  color: #777;
+  text-decoration: none;
+}
+.item-left a i {
+  color: black;
+  text-decoration: none;
+}
+
+.blog-item-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.blog-item-text h4 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 10px;
+}
+.blog-item-text p {
+color: #777;
+}
+.blog-item-text .view-more {
+color: black;
+text-decoration: none;
+background-color: #eaf3fc;
+padding: 5px 15px;
+transition: 0.4s ease-in;
+}
+
+
+.blog-item-text .view-more:hover {
+  background-color:#3bacf0;
+  color: white;
+
+
+}
+.blog-item-img img  {
+  width: 100%;
+}
+@media (max-width:768px) {
+.blog-item-1   {
+  width: auto;
+}
+
+.item-left {
+  width: auto;
+  float: left;
+}
+  
+}
+
+.page-number {
+ display: flex;
+
+ justify-content: center;
+}
+
+
+@media (max-width:1400px)
+ {
+  .section-blog-detail {
+    height: auto;
+    margin-bottom: 50px;
+  }
+ }
