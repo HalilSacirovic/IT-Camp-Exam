@@ -1539,6 +1539,7 @@ margin-right: 20px;
     background-image: url('../IT-Camp-Exam/Sections-images/background-img-blog-section.jpg');
     background-size: cover;
     position: absolute;
+    background-position: center;
     top: 0px;
     right: 0px;
     bottom: 0px;
